@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 @{
-    string message = (string)ViewData["Message"]!;
+    string message = (string)ViewData["Email"]!;
     bool flag = false;
     if (!string.IsNullOrEmpty(message))
     {

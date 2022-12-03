@@ -87,7 +87,7 @@ namespace CyoloFrontAppInterface.Areas.Manage.Controllers
 
             BackendServerAPI ls = new BackendServerAPI();
             ViewBag.Lawyer = await ls.GetLawyerByEmail(HttpContext.Session.GetString("userinfo"));
-            ViewData["Message"] = HttpContext.Session.GetString("userinfo");
+            ViewData["Email"] = HttpContext.Session.GetString("userinfo");
 
             try
             {
@@ -116,7 +116,7 @@ namespace CyoloFrontAppInterface.Areas.Manage.Controllers
             ViewBag.Lawyer = await ls.GetLawyerByEmail(HttpContext.Session.GetString("userinfo"));
             ViewBag.AvailableModel = await ls.GetAvailableLawyersByCourtCaseNo(courtCaseNo);
             ViewBag.No = courtCaseNo;
-            ViewData["Message"] = HttpContext.Session.GetString("userinfo");
+            ViewData["Email"] = HttpContext.Session.GetString("userinfo");
             
             return View();
         }
