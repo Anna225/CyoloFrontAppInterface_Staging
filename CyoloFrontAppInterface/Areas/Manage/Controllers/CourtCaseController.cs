@@ -39,7 +39,7 @@ namespace CyoloFrontAppInterface.Areas.Manage.Controllers
             {
                 Console.WriteLine(ex);
             }
-
+            ViewData["Email"] = email;
             ViewBag.Today = date;
             ViewBag.Email = email;
 
@@ -158,7 +158,7 @@ namespace CyoloFrontAppInterface.Areas.Manage.Controllers
                 HearingDate = collection["hearingdate"],
                 HearingTime = collection["hearingtime"]
             };
-
+            ViewData["Email"] = HttpContext.Session.GetString("userinfo");
             ViewBag.CourtCase = retval;
             ViewBag.AvailableModel = await ls.GetByCourtCase(collection);
             ViewBag.Number = collection["courtcaseno"];

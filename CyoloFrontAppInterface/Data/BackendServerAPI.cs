@@ -140,7 +140,7 @@ namespace CyoloFrontAppInterface.Data
                 CourtCaseNo = courtcaseno,
                 LawyerId = lawyerid,
                 Available = 1,
-                References = "1st Email / second Call",
+                ReceiveRef = "1st Email, second Call",
                 Comments = "Please do not send me requests after 8:00 pm\r\n"
             };
             var request = new RestRequest($"/api/Presentation");
