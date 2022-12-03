@@ -16,8 +16,8 @@ namespace CyoloFrontAppInterface.Data
         private string _ocp_apim_subscription_key;
         public BackendServerAPI()
         {
-            _client = new RestClient("https://localhost:7213");//test for speed up
-            //_client = new RestClient("https://cyoloapidemo.azurewebsites.net");//demo
+            // _client = new RestClient("https://localhost:7213");//test for speed up
+            _client = new RestClient("https://cyoloapi-staging.azurewebsites.net");//demo
             // _client = new RestClient("https://lawyerapi.azure-api.net");//real
             _ocp_apim_subscription_key = "f05341ebf7244456b8c3bed62c5795a0";
             // or _ocp_apim_subscription_key = "f32b5ffa39a54d50b82dd80b7fd06bc6";
