@@ -80,6 +80,7 @@
         </tr>
     </thead>
     <tbody>
+        @ViewBag.AvailableModel
         @{
             var i = 0;
         }
@@ -97,8 +98,8 @@
                     <td>@item.lawyer.email</td>
                     <td>@item.lawyer.phone</td>
                     <td>@item.lawyer.fax</td>
-                    <td>@item.present.receiveRef</td>
-                    <td>@item.present.comments</td>
+                    <td>@item.presentation.receiveRef</td>
+                    <td>@item.presentation.comments</td>
                 </tr>
                 i++;
             }
