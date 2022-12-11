@@ -10574,23 +10574,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yaroslov\\.nuget\\packages\\": {},
+    "C:\\Users\\mohit\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\LawyerCyoloPro\\2022CyoloFrontAppInterface\\CyoloFrontAppInterface\\CyoloFrontAppInterface.csproj",
+      "projectUniqueName": "C:\\Users\\mohit\\Downloads\\CyoloFrontAppInterface_Staging\\CyoloFrontAppInterface\\CyoloFrontAppInterface.csproj",
       "projectName": "CyoloFrontAppInterface",
-      "projectPath": "E:\\LawyerCyoloPro\\2022CyoloFrontAppInterface\\CyoloFrontAppInterface\\CyoloFrontAppInterface.csproj",
-      "packagesPath": "C:\\Users\\Yaroslov\\.nuget\\packages\\",
-      "outputPath": "E:\\LawyerCyoloPro\\2022CyoloFrontAppInterface\\CyoloFrontAppInterface\\obj\\",
+      "projectPath": "C:\\Users\\mohit\\Downloads\\CyoloFrontAppInterface_Staging\\CyoloFrontAppInterface\\CyoloFrontAppInterface.csproj",
+      "packagesPath": "C:\\Users\\mohit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mohit\\Downloads\\CyoloFrontAppInterface_Staging\\CyoloFrontAppInterface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yaroslov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
